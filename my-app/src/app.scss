@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@500&family=Source+Sans+Pro:ital,wght@0,400;0,900;1,900&display=swap");
+:root {
+  font-size: 16px;
+}
+
+.App-header {
+  background-color: rgb(65, 65, 65);
+  display: flex;
+
+  .menu {
+    width: 60%;
+    margin: auto;
+
+    .menuItem {
+      display: inline;
+      float: left;
+
+      a {
+        color: rgb(131, 131, 131);
+        text-decoration: none;
+        display: block;
+        padding: 1rem 20px 1rem 20px;
+        text-align: center;
+        font-size: 1rem;
+        font-family: "Noto Sans Mono", monospace;
+      }
+
+      svg {
+        padding: 0.5rem 20px 0.5rem 0px;
+      }
+
+      svg:hover {
+        fill: white;
+      }
+
+      a:hover {
+        background-color: black;
+        color: white;
+      }
+    }
+
+    li:last-child {
+      float: right;
+    }
+
+    #active {
+      background-color: black;
+      a {
+        color: white;
+      }
+    }
+  }
+}
+
+.App-container {
+  width: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0);
+
+  .mainText {
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding-bottom: 7rem;
+    position: relative;
+    .firstText {
+      position: relative;
+      top: 2rem;
+      font-size: 2rem;
+      color: rgb(71, 71, 71);
+      font-family: "Noto Sans Mono", monospace;
+      float: left;
+      padding-right: 50px;
+    }
+
+    .secondText {
+      position: relative;
+      top: 4rem;
+      font-size: 1rem;
+      color: rgb(71, 71, 71);
+      font-family: "Noto Sans Mono", monospace;
+      float: left;
+    }
+  }
+
+  .gridContainer {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      justify-items: center;
+      width: 100%;
+      
+
+  }
+
+  .gridItem {
+      margin-top: 3rem;
+      width: 90%;
+      display: inline-block;
+      
+      .image {
+          width: 100%;
+      }
+
+      .doggo {
+          font-size: 1.25rem;
+          font-family: "Noto Sans Mono", monospace;
+          font-weight: bold;
+          letter-spacing: 0.1rem;
+          color: rgb(71, 71, 71);
+      }
+
+      .text {
+          width: 100%;
+      }
+  }
+}
+
+.App-footer {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: 1900px;
+  padding-bottom: 20px;
+}

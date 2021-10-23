@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@500&family=Source+Sans+Pro:ital,wght@0,400;0,900;1,900&display=swap");
+:root {
+  font-size: 16px;
+}
+
+.App-header {
+  background-color: #414141;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.App-header .menu {
+  width: 60%;
+  margin: auto;
+}
+
+.App-header .menu .menuItem {
+  display: inline;
+  float: left;
+}
+
+.App-header .menu .menuItem a {
+  color: #838383;
+  text-decoration: none;
+  display: block;
+  padding: 1rem 20px 1rem 20px;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Noto Sans Mono", monospace;
+}
+
+.App-header .menu .menuItem svg {
+  padding: 0.5rem 20px 0.5rem 0px;
+}
+
+.App-header .menu .menuItem svg:hover {
+  fill: white;
+}
+
+.App-header .menu .menuItem a:hover {
+  background-color: black;
+  color: white;
+}
+
+.App-header .menu li:last-child {
+  float: right;
+}
+
+.App-header .menu #active {
+  background-color: black;
+}
+
+.App-header .menu #active a {
+  color: white;
+}
+
+.App-container {
+  width: 60%;
+  left: 50%;
+  position: absolute;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.App-container .mainText {
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding-bottom: 7rem;
+  position: relative;
+}
+
+.App-container .mainText .firstText {
+  position: relative;
+  top: 2rem;
+  font-size: 2rem;
+  color: #474747;
+  font-family: "Noto Sans Mono", monospace;
+  float: left;
+  padding-right: 50px;
+}
+
+.App-container .mainText .secondText {
+  position: relative;
+  top: 4rem;
+  font-size: 1rem;
+  color: #474747;
+  font-family: "Noto Sans Mono", monospace;
+  float: left;
+}
+
+.App-container .gridContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  justify-items: center;
+  width: 100%;
+}
+
+.App-container .gridItem {
+  margin-top: 3rem;
+  width: 90%;
+  display: inline-block;
+}
+
+.App-container .gridItem .image {
+  width: 100%;
+}
+
+.App-container .gridItem .doggo {
+  font-size: 1.25rem;
+  font-family: "Noto Sans Mono", monospace;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  color: #474747;
+}
+
+.App-container .gridItem .text {
+  width: 100%;
+}
+
+.App-footer {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: 1900px;
+  padding-bottom: 20px;
+}
+/*# sourceMappingURL=app.css.map */
