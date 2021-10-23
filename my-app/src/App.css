@@ -104,6 +104,8 @@
   display: inline-block;
   border: 1px solid #bebebe;
   border-radius: 1%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .App-container .gridItem .image {
@@ -125,7 +127,7 @@
 }
 
 .App-container .gridItem:hover {
-  background-color: #f7f7f7;
+  background-color: #eeeeee;
 }
 
 .App-footer {
