@@ -11,33 +11,33 @@ function Content() {
 
       <div className="gridContainer">
         <div className="gridItem">
-          <ContentItem />
+          <ContentItem title='Doggo'/>
         </div>
         <div className="gridItem">
-          <ContentItem />
+          <ContentItem title='Dog'/>
         </div>
         <div className="gridItem">
-          <ContentItem />
+          <ContentItem title='Doggo'/>
         </div>
         <div className="gridItem">
-          <ContentItem />
+          <ContentItem title='Dog'/>
         </div>
         <div className="gridItem">
-          <ContentItem />
+          <ContentItem title='Doggo'/>
         </div>
         <div className="gridItem">
-          <ContentItem />
+          <ContentItem title='Dog'/>
         </div>
       </div>
     </div>
   );
 }
 
-function ContentItem() {
+function ContentItem({title}) {
   return (
     <div>
       <img className="image" src={image} alt="" />
-      <p className="doggo">DOGGO</p>
+      <p className="doggo">{title}</p>
       <p className="text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
         voluptatem ad dicta delectus inventore dolores voluptates officia
