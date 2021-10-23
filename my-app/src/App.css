@@ -36,6 +36,8 @@
   padding: 0.5rem 20px 0.5rem 0px;
   position: relative;
   top: 3px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .App-header .menu .menuItem svg:hover {
