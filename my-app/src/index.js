@@ -9,8 +9,8 @@ import Content from './Content';
 ReactDOM.render(
   <React.StrictMode>
     <Header />
-    <Footer />
     <Content />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
